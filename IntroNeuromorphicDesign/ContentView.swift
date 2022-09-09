@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            
+            MusicPlayerView()
+        }.frame(maxWidth:.infinity, maxHeight:.infinity)
+            .background(Color(hue: 1.0, saturation: 0.001, brightness: 0.938))
     }
 }
 
